@@ -27,7 +27,7 @@ $mac_style: 'false';
 // Default corner radius value
 $default_corner: 0px;
 
-$corner_style: 'default';
+$corner_style: 'circular';
 
 @if ($default_corner / 1px >= 10) {
   $corner_style: 'circular';
